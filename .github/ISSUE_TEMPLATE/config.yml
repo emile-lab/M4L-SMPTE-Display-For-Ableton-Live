@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 사용 안내 · User guide
+    url: https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live#readme
+    about: 설치와 문제 해결 방법을 먼저 확인해 주세요. Please check install & troubleshooting first.

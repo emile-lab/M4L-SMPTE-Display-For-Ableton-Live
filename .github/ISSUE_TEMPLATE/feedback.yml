@@ -1,0 +1,11 @@
+name: 💡 의견 · 기능 제안 · Feedback / feature idea
+description: 사용 소감이나 있었으면 하는 기능을 알려 주세요.
+labels: [feedback]
+body:
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 의견 · Feedback
+      description: 어떤 작업에서 어떻게 쓰고 계신지 함께 알려 주시면 큰 도움이 됩니다.
+    validations:
+      required: true

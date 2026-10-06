@@ -1,0 +1,57 @@
+name: 🐞 버그 리포트 · Bug report
+description: 동작하지 않거나 이상한 점을 알려 주세요. Something isn't working.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        제보해 주셔서 감사합니다! 아래 내용을 채워 주시면 빠르게 확인할 수 있습니다.
+        Thanks for the report! The details below help a lot.
+  - type: input
+    id: version
+    attributes:
+      label: SMPTE Display 버전 · Version
+      placeholder: Beta 0.2
+    validations:
+      required: true
+  - type: input
+    id: live
+    attributes:
+      label: Ableton Live 버전 · Live version
+      placeholder: "12.4.5 Suite"
+    validations:
+      required: true
+  - type: input
+    id: os
+    attributes:
+      label: 운영체제 · OS
+      placeholder: "macOS 15.7, Apple Silicon"
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 무슨 일이 있었나요? · What happened?
+      description: 무엇을 했고, 무엇을 기대했고, 실제로 어떻게 됐는지 적어 주세요.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 재현 방법 · Steps to reproduce
+      placeholder: |
+        1. ...
+        2. ...
+  - type: textarea
+    id: info
+    attributes:
+      label: 디바이스 정보 줄 · Device info lines
+      description: 디바이스 패널의 정보 줄(예 `auto 24 fps | BITC ... ok 5/5`)과 상태 줄을 그대로 적어 주세요. 스크린샷도 좋습니다.
+  - type: dropdown
+    id: video
+    attributes:
+      label: Arrangement에 영상이 있나요? · Video in the Set?
+      options:
+        - "없음 · No"
+        - "있음, 번인 타임코드 없음 · Yes, no burned-in timecode"
+        - "있음, 번인 타임코드 있음 · Yes, with burned-in timecode"
