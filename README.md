@@ -4,7 +4,7 @@
 
 **Arrangement View에서 SMPTE 타임코드를 띄워 보고, 타임코드를 입력해 바로 이동하는 Max for Live 디바이스**
 
-[![Version](https://img.shields.io/badge/version-Beta%200.2-orange)](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta)
+[![Version](https://img.shields.io/badge/version-Beta%200.2-orange)](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest)
 [![Ableton Live](https://img.shields.io/badge/Ableton%20Live-12%20%2B%20Max%20for%20Live-black)](https://www.ableton.com/live/max-for-live/)
 [![macOS](https://img.shields.io/badge/macOS-11%2B-lightgrey)](#요구-사항)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
@@ -13,7 +13,7 @@
 
 <img src="docs/images/screenshot.png" alt="SMPTE Display 플로팅 창과 디바이스 패널" width="760">
 
-### [⬇️ Beta 0.2 다운로드](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta)
+### [⬇️ Beta 0.2 다운로드](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ## 주요 기능
 
-| | |
+| 기능 | 설명 |
 |---|---|
 | 🕒 **떠 있는 타임코드 창** | Live 위에 작은 창으로 현재 위치를 `HH:MM:SS:FF`로 보여 줍니다. 크기는 S / M / L / XL 중에서 고릅니다. |
 | ⌨️ **타임코드로 이동** | 창을 클릭하고 `01:23:45:12`를 입력한 뒤 **Enter**를 누르면 그 위치로 이동합니다. **Space**를 누르면 이동한 다음 재생합니다. |
@@ -47,7 +47,7 @@
 ## 설치 (3단계)
 
 **1. 다운로드 후 압축을 풉니다.**
-[Releases](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta)에서 `SMPTE_Display_Beta_0.2.zip`을 받아 압축을 풉니다.
+[Releases](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest)에서 `SMPTE_Display_Beta_0.2.zip`을 받아 압축을 풉니다.
 
 **2. macOS 보안 격리를 해제합니다.** *(번인 타임코드 기능에 필요)*
 인터넷에서 받은 파일은 macOS가 격리합니다. 이 상태에서는 영상 타임코드 인식 도구(`bitc_reader`)가 실행되지 않습니다. **터미널**을 열고 아래 명령을 입력하세요. 경로는 압축을 푼 위치에 맞게 바꿉니다.

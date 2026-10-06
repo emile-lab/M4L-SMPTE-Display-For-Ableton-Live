@@ -4,7 +4,7 @@
 
 **A Max for Live device that shows SMPTE timecode in a floating window over the Arrangement View — type a timecode to jump straight there.**
 
-[![Version](https://img.shields.io/badge/version-Beta%200.2-orange)](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta)
+[![Version](https://img.shields.io/badge/version-Beta%200.2-orange)](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest)
 [![Ableton Live](https://img.shields.io/badge/Ableton%20Live-12%20%2B%20Max%20for%20Live-black)](https://www.ableton.com/live/max-for-live/)
 [![macOS](https://img.shields.io/badge/macOS-11%2B-lightgrey)](#requirements)
 [![License](https://img.shields.io/badge/license-All%20Rights%20Reserved-red)](LICENSE)
@@ -13,7 +13,7 @@
 
 <img src="docs/images/screenshot.png" alt="SMPTE Display floating window and device panel" width="760">
 
-### [⬇️ Download Beta 0.2](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta)
+### [⬇️ Download Beta 0.2](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest)
 
 </div>
 
@@ -24,7 +24,7 @@
 
 ## Features
 
-| | |
+| Feature | Description |
 |---|---|
 | 🕒 **Floating timecode window** | Shows the current position as `HH:MM:SS:FF` in a small window above Live. Sizes S / M / L / XL. |
 | ⌨️ **Locate by timecode** | Click the window, type `01:23:45:12`, press **Enter** to jump. **Space** jumps and starts playback. |
@@ -37,7 +37,7 @@ Frame rates: 23.976 · 24 · 25 · 29.97 (NDF / DF) · 30 · 50 · 59.94 (NDF / 
 
 ## Requirements
 
-| | |
+| Item | Details |
 |---|---|
 | Ableton Live | **Live 12 Suite**, or **Standard + Max for Live** (tested on 12.4.5) |
 | OS | **macOS 11+** (Apple Silicon / Intel). Burned-in timecode reading is macOS only. |
@@ -47,7 +47,7 @@ Frame rates: 23.976 · 24 · 25 · 29.97 (NDF / DF) · 30 · 50 · 59.94 (NDF / 
 ## Install (3 steps)
 
 **1. Download and unzip.**
-Get `SMPTE_Display_Beta_0.2.zip` from [Releases](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/tag/v0.2.0-beta) and unzip it.
+Get `SMPTE_Display_Beta_0.2.zip` from [Releases](https://github.com/emile-lab/M4L-SMPTE-Display-For-Ableton-Live/releases/latest) and unzip it.
 
 **2. Remove the macOS quarantine flag.** *(needed for burned-in timecode reading)*
 macOS quarantines downloaded files, which stops the timecode reader (`bitc_reader`) from running. Open **Terminal** and run the command below, adjusting the path to where you unzipped it:
@@ -95,7 +95,7 @@ xattr -dr com.apple.quarantine ~/Downloads/SMPTE_Display_Beta_0.2
 
 ### Device controls
 
-| Control | |
+| Control | Description |
 |---|---|
 | **FPS** | Timecode frame rate. `Auto (video)` follows the video clip. |
 | **Offset** | Timecode at timeline zero (e.g. `01:00:00:00`). Set automatically when burned-in timecode is found. |
