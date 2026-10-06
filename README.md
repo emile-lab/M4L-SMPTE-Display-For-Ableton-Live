@@ -171,7 +171,7 @@ Set에 이미 올라가 있는 디바이스는 이전 버전으로 계속 동작
 
 ## 라이선스
 
-**Copyright © 2026 Emile (emile-lab). All rights reserved.**
+**Copyright © 2026 전민기 (Jeon Min Gi). All rights reserved.**
 
 - ✅ 개인 작업과 **상업 프로젝트**(음악·영상 작업 등)에 무료로 사용할 수 있습니다.
 - ❌ 디바이스 파일의 **재배포, 재업로드, 판매, 수정본 배포**는 금지합니다.

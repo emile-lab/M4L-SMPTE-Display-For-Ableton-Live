@@ -171,7 +171,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 ## License
 
-**Copyright © 2026 Emile (emile-lab). All rights reserved.**
+**Copyright © 2026 Jeon Min Gi (전민기). All rights reserved.**
 
 - ✅ Free to use in personal **and commercial** music / picture work.
 - ❌ **No redistribution, re-uploading, selling, or distributing modified versions** of the device files.
